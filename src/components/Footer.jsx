@@ -20,7 +20,7 @@ const Footer = () => {
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Contact Us</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
               <li>Email: <a href="mailto:racing.biu@biu.ac.il" className="hover:text-biu-gold transition-colors">racing.biu@biu.ac.il</a></li>
-              <li>Phone: <a href="tel:+972-3-5317633" className="hover:text-biu-gold transition-colors">+972-3-5317633</a></li>
+              <li>Phone: <a href="tel:+972-3-5317633" className="hover:text-biu-gold transition-colors">+972 3-5317633</a></li>
               <li>Address: Max and Anna Webb St., Ramat Gan, Israel</li>
             </ul>
           </div>

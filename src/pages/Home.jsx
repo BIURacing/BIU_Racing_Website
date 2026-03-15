@@ -54,7 +54,7 @@ const Home = () => {
               <img 
                 src="/BIURacingColorLogo.png" 
                 alt="BIU Racing Logo Large" 
-                className="w-full max-w-lg object-contain drop-shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:drop-shadow-[0_0_40px_rgba(0,78,54,0.5)] transition-all duration-700 hover:scale-105 animate-[float_6s_ease-in-out_infinite]"
+                className="w-full max-w-lg object-contain mix-blend-multiply drop-shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:drop-shadow-[0_0_40px_rgba(0,78,54,0.5)] transition-all duration-700 hover:scale-105 animate-[float_6s_ease-in-out_infinite]"
               />
             </div>
           </div>

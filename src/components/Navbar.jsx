@@ -7,11 +7,7 @@ const Navbar = () => {
   const [isTeamOpen, setIsTeamOpen] = useState(false);
   const location = useLocation();
 
-  const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About Us', path: '/about' },
-    { name: 'Media', path: '/media' },
-  ];
+
 
   const teamLinks = [
     { name: 'Management', path: '/team/management' },
