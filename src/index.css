@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-biu-green: #004e36;
+  --color-biu-gold: #eab308;
+  --color-biu-white: #ffffff;
+  --color-biu-dark: #0f172a;
+
+  --animate-scroll: scroll 30s linear infinite;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes ripple {
+    0% {
+      background-position: 0% 0%;
+    }
+
+    50% {
+      background-position: 100% 100%;
+    }
+
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+  --animate-race: race 3.5s ease-in-out infinite;
+
+  @keyframes race {
+    0% {
+      right: -300px;
+      opacity: 0;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    80% {
+      opacity: 1;
+    }
+
+    100% {
+      right: calc(100vw + 300px);
+      opacity: 0;
+    }
+  }
+
+  --animate-fade-in-up: fade-in-up 1s ease-out forwards;
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-biu-dark);
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 78, 54, 0.15) 0%, transparent 60%),
+      radial-gradient(circle at 100% 0%, rgba(234, 179, 8, 0.05) 0%, transparent 50%);
+    background-size: 200% 200%;
+    animation: ripple 20s ease-in-out infinite;
+    color: var(--color-biu-white);
+    font-family: 'Heebo', sans-serif;
+    min-height: 100vh;
+  }
+}
+
+/* Removed .global-watermark for react inline image */
+
+/* RTL scrolling adjustment for the marquee */
+.scroller {
+  display: flex;
+  width: max-content;
+}
