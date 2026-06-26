@@ -21,11 +21,11 @@ const Management = () => {
   const captain = { name: "Shahar Admoni", role: "Team Captain", image: null };
 
   const teamLeaders = [
-    { name: "Yonatan Ben Bassat", role: "Head of Embedded Sys.", image: null },
+    { name: "Michelle Tobias", role: "Head of Embedded Sys.", image: null },
     { name: "Rotem Sillam", role: "Head of Electrical", image: null },
     { name: "Beny Provetorov", role: "Head of Mechanical", image: null },
     { name: "Ido Samoha", role: "Head of Product Mgmt.", image: null },
-    { name: "Roni Mordekhayev", role: "Head of Operations", image: null }
+    { name: "Tair Sackstein", role: "Head of Operations", image: null }
   ];
 
   return (

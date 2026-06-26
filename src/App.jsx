@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Media from './pages/Media';
+import Updates from './pages/Updates';
 import Contact from './pages/Contact';
 
 /* Team Pages */
@@ -32,6 +33,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/media" element={<Media />} />
+            <Route path="/updates" element={<Updates />} />
             <Route path="/contact" element={<Contact />} />
             
             {/* Team Routes */}

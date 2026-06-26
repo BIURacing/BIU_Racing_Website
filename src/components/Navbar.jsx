@@ -58,6 +58,7 @@ const Navbar = () => {
             </div>
 
             <Link to="/media" className={`hover:text-biu-gold transition-colors px-3 py-2 rounded-md text-sm font-medium ${location.pathname === '/media' ? 'text-biu-gold' : 'text-white'}`}>Media</Link>
+            <Link to="/updates" className={`hover:text-biu-gold transition-colors px-3 py-2 rounded-md text-sm font-medium ${location.pathname === '/updates' ? 'text-biu-gold' : 'text-white'}`}>Updates</Link>
             <Link to="/contact" className={`hover:text-biu-gold transition-colors px-3 py-2 rounded-md text-sm font-medium ${location.pathname === '/contact' ? 'text-biu-gold' : 'text-white'}`}>Contact</Link>
           </div>
           
@@ -99,6 +100,7 @@ const Navbar = () => {
             </div>
             
             <Link to="/media" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-biu-gold hover:bg-white/5" onClick={() => setIsOpen(false)}>Media</Link>
+            <Link to="/updates" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-biu-gold hover:bg-white/5" onClick={() => setIsOpen(false)}>Updates</Link>
             <Link to="/contact" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-biu-gold hover:bg-white/5" onClick={() => setIsOpen(false)}>Contact</Link>
             
             <Link to="/contact" onClick={() => setIsOpen(false)} className="block text-center mt-4 bg-biu-gold hover:bg-yellow-400 text-biu-dark font-bold py-2 px-3 rounded-md transition-colors">

@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Contact Us</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
-              <li>Email: <a href="mailto:racing.biu@biu.ac.il" className="hover:text-biu-gold transition-colors">racing.biu@biu.ac.il</a></li>
+              <li>Email: <a href="mailto:racingbiu@biu.co.il" className="hover:text-biu-gold transition-colors">racingbiu@biu.co.il</a></li>
               <li>Phone: <a href="tel:+972-3-5317633" className="hover:text-biu-gold transition-colors">+972 3-5317633</a></li>
               <li>Address: Max and Anna Webb St., Ramat Gan, Israel</li>
             </ul>
@@ -41,10 +41,10 @@ const Footer = () => {
 
             <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-biu-gold transition-all">
+              <a href="https://www.instagram.com/biu_racing/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-biu-gold transition-all">
                 <FaInstagram size={18} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#0077b5] transition-all">
+              <a href="https://www.linkedin.com/company/bar-ilan-racing/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#0077b5] transition-all">
                 <FaLinkedin size={18} />
               </a>
               <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#1877f2] transition-all">
@@ -86,7 +86,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Bar-Ilan University Formula Student Team. All rights reserved.
           </p>
           <p className="text-gray-600 text-xs font-medium tracking-wide">
-            Website built by shahar admoni
+            Designed & Developed by Shahar Admoni
           </p>
         </div>
       </div>
