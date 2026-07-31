@@ -22,5 +22,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/BIU_Racing_Website/',
+  base: '/',
 })
